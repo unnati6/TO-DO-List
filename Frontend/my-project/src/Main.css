@@ -1,0 +1,53 @@
+
+.Main-div{
+    background-color: rgb(201, 105, 201);
+    height: 350px;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 500px;
+    display: flexbox;
+    justify-content: center;
+    padding: 20px;
+    border : 2px;
+    border-radius: 2%;
+    align-items: center;
+
+}
+.Main-div h3{
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+    font-size: large;
+    font-style: bold;
+}
+.Otherdiv{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Itemdiv{
+    display: block;
+    padding-top: 10px;
+}
+.Itemdiv ul{
+    display: flex;
+   
+    
+}
+.Itemdiv ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.Itemdiv ul li button{
+    padding: 1px;
+    color: black;
+    border: black solid  2px;
+    margin-left: 40px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+}
+.Itemdiv ul li button:hover{
+    background-color: white;
+}
